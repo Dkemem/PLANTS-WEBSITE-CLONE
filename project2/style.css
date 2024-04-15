@@ -1,0 +1,500 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.mainheader{
+    height: 91px;
+}
+.rownav{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid grey;
+}
+.logo{
+    margin-left: 50px;
+    height: 51px;
+    width: 210px;
+    background-image: url("plantly-logo-final.png");
+    background-size: cover;
+}
+.logo-second{
+    height: 40px;
+    display: flex;
+}
+.search{
+    width: 620px;
+    height: 20px;
+    margin-left: 0px;
+    border: 0.25px solid grey;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: medium;
+    text-align: left;
+    padding: 10px;
+}
+.search-sticker{
+    width: 35px;
+    height: 30px;
+    font-size: larger;
+    padding: 13px;
+}
+.div-search{
+    width: 52px;
+    height: 42px;
+    display: inline;
+    background-color: rgb(124, 236, 124);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.login{
+    display: flex;
+    margin-right: 50px;
+    margin-top: 24px;
+    width: 200px;
+    height: 50px;
+}
+.carts{
+    font-size: 30px;
+    margin: 0px 0px 40px 40px;
+}
+.stick{
+    margin-left: 40px;
+}
+.register{
+    margin-left: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -12px;
+}
+.border:hover{
+    border: 2px solid green;
+}
+/* .........................................................................SECOND ROW................................ */
+.secondrow{
+    margin-top: 30px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid grey;
+    border-top: none;
+}
+.select select {
+    display: none; /* Hide the select dropdown by default */
+}
+
+.select:hover select {
+    display: block; /* Show the select dropdown when .select is hovered over */
+}
+.select{
+    height: 30px;
+    color: orange;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.shopnow-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    background-image: url("Plantly-Buy-Plants-Online.jpeg");
+    background-size: cover;
+    color: white;
+    font-size: 40px;
+}
+.border1{
+    border: 1px solid transparent;
+}
+.border1:hover{
+    color: red;
+    border-top:2px solid red;
+}
+.check{
+    width: 140px;
+}
+.option{
+    color: red;
+    font-size: small;
+    background-color: rgb(125, 233, 125);
+
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 50px;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 2px  black;
+}
+.btn-1{
+    height: 60px;
+    width: 173px;
+    background-color: #00A651;
+    color: white;
+    border: 5px solid white;
+    border-radius: 10px;
+    font-size: 21px;
+    margin-top: 20px;
+}
+
+.toysection{
+    height: 600px ;
+}
+.toy1{
+    height: 600px;
+    width: 1100px;
+    background-image: url("toy.png");
+    background-size: cover;
+    margin: 100px;
+    margin-top: 50px;
+    border-bottom: 0.25px solid grey;
+}
+.catheader{
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.catheader span{
+    font-size: 30px;
+}
+.catheader a{
+    font-size: 18px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.mycards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.boxes{
+    height: 25rem;
+    width: 14rem;
+    margin-top: 5rem;
+    padding: 2rem;
+}
+.inbox1{
+    height: 12rem;
+    background-image: url("flower1.jpeg");
+    background-size: cover;
+    border-radius: 10px;
+}
+@keyframes shan {
+    50% {
+      height: 15rem; /* Intermediate height */
+    }
+    100% {
+      height: 12rem; /* Final height */
+    }
+  }
+.myboxes:hover {
+    animation-name: shan;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+  }
+
+.outbox{
+    font-size: 2rem;
+    margin-top: 10px;
+    border-bottom: 1px solid grey;
+}
+.cart-btn{
+    margin-top: 2rem;
+    background-color: #00A651;
+    color: white;
+    width: 14rem;
+    height: 3rem;
+    border-radius: 10px;
+    font-size: larger;
+    position: static;
+}
+.astore{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+.astore a{
+    margin: 3px;
+}
+.inbox2{
+    height: 12rem;
+    background-image: url("image (2).jpeg");
+    background-size: cover;
+    border-radius: 10px;
+}
+.inbox3{
+    height: 12rem;
+    background-image: url("image\ \(4\).jpeg");
+    background-size: cover;
+    border-radius: 10px;
+}
+.inbox4{
+    height: 12rem;
+    background-image: url("image\ \(10\).jpeg");
+    background-size: cover;
+    border-radius: 10px;
+}
+.inbox5{
+    height: 12rem;
+    background-image: url("flower5.jpeg");
+    background-size: cover;
+    border-radius: 10px;
+}
+.inbox6{
+    height: 12rem;
+    background-image: url("image (1).jpeg");
+    background-size: cover;
+    border-radius: 10px;
+}
+.inbox7{
+    height: 12rem;
+    background-image: url("image (3).jpeg");
+    background-size: cover;
+    border-radius: 10px;
+}
+.inbox8{
+    height: 12rem;
+    background-image: url("image (4).jpeg");
+    background-size: cover;
+    border-radius: 10px;
+}
+.inbox9{
+    height: 12rem;
+    background-image: url("image (5).jpeg");
+    background-size: cover;
+    border-radius: 10px;
+}
+.inbox10{
+    height: 12rem;
+    background-image: url("image (6).jpeg");
+    background-size: cover;
+    border-radius: 10px;
+}
+.inbox11{
+    height: 12rem;
+    background-image: url("image (7).jpeg");
+    background-size: cover;
+    border-radius: 10px;
+}
+.inbox12{
+    height: 12rem;
+    background-image: url("image (8).jpeg");
+    background-size: cover;
+    border-radius: 10px;
+}
+.inbox13{
+    height: 12rem;
+    background-image: url("image (9).jpeg");
+    background-size: cover;
+    border-radius: 10px;
+}
+.inbox14{
+    height: 12rem;
+    background-image: url("image (10).jpeg");
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.boxes:hover{
+    border: 2px solid lightgray;
+    border-radius: 10px;
+}
+.mid-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+.catheader a:hover{
+color: red;
+}
+.mycards a{
+    text-decoration: none;
+    color: green;
+}
+.popular{
+    margin-top: 40px;
+    font-size: 2rem;
+}
+.last-card{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.ltcard{
+    height: 200px;
+    width: 230px;
+    border-radius: 80px;
+}
+.ltcard-1{
+background-image: url("flower4.jpeg");
+background-size: cover;
+}
+.ltcard-2{
+    background-image: url("image (8).jpeg");
+    background-size: cover;
+}
+.ltcard-3{
+    background-image: url("image (3).jpeg");
+    background-size: cover;
+}
+.ltcard-4{
+    background-image: url("image (11).jpeg");
+    background-size: cover;
+}
+.ltcard-5{
+    background-image: url("image (1).jpeg");
+    background-size: cover;
+}
+.ltcard-1 a{
+margin-top: 60px;
+}
+.outer-ltcard a{
+text-decoration: none;
+font-size: larger;
+color: green;
+margin-left: 30px;
+}
+.outer-ltcard a:hover{
+    color: red;
+}
+.second-last{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.block{
+    height: 230px;
+    width: 230px;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.block1{
+    height: 150px;
+    width: 150px;
+    background-image: url("block (1).jpg");
+    background-size: cover;
+}
+.block2{
+    height: 150px;
+    width: 150px;
+    background-image: url("block (2).jpg");
+    background-size: cover;
+
+}
+.block3{
+    
+    height: 150px;
+    width: 150px;
+    background-image: url("block (3).jpg");
+    background-size: cover;
+}
+.block4{
+    
+    height: 150px;
+    width: 150px;
+    background-image: url("block (4).jpg");
+    background-size: cover;
+}
+.block5{
+    
+    height: 150px;
+    width: 150px;
+    background-image: url("block (5).jpg");
+    background-size: cover;
+}
+.ltfooter{
+    height: 120px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    margin-top: 90px;
+}
+.footer{
+    background-color: rgb(245, 244, 244);
+}
+.ltfooter-2{
+    height: 280;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid grey;
+}
+.fbox{
+    height: 180px;
+    width: 240px;
+    font-size: small;
+}
+.img{
+    height:56px;
+    background-image: url("plantly-logo-final.png");
+    background-size: cover;
+}
+.txt{
+    font-size: medium;
+    margin-left: 70px;
+    margin-top: 8px;
+
+}
+.tags{
+    margin-top: 4.5rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    color:  #00A651;
+}
+ul{
+    list-style-type: none;
+    font-size: larger;
+    margin: 30px;
+}
+.flexbox-2 {
+    line-height: 10px;
+}
+li{
+    margin: 10px;
+}
+.Appstore{
+    height: 58px;
+    width: 200px;
+    background-image: url("badge_android.png");
+    background-size: cover;
+    margin: 20px;
+}
+.playstore{
+    height: 58px;
+    width: 200px;
+    background-image: url("badge_apple.png");
+    background-size: cover;
+    margin: 20px;
+}
+.stores{
+    margin-top: 10px;
+}
+.ltfooter-3{
+    margin-top: 20px;
+}
+.last-1{
+    font-size: small;
+}
+.last-2{
+    font-size: small;
+    color: #00A651;
+}
+.myasset{
+    color: red;
+}
